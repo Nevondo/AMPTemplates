@@ -66,5 +66,18 @@
         "IncludeInCommandLine": true,
         "DefaultValue": "20",
         "EnumValues": {}
+    },
+    {
+        "DisplayName": "Mapname",
+        "Category": "",
+        "Description": "NewYorkCity, HugeBank, Classic_Heist_Big, CasinoHeist, Bank4",
+        "Keywords": "",
+        "FieldName": "mapname",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "mapname",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "NewYorkCity",
+        "EnumValues": {}
     }
 ]
