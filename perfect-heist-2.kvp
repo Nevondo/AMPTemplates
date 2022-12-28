@@ -24,7 +24,6 @@ Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
 Console.UserJoinRegex=^User (?<username>.+?) \((?<userid>-?d+)\) connected from \[::ffff:(?<endpoint>.+?)\]$
 Console.UserLeaveRegex=^User (?<username>.+?) \((?<userid>-?d+)\) disconnected\. Reason: (.+?)$
 Meta.Author=twi
-Meta.ConfigManifest=perfect-heist-2-config.json
 Meta.ConfigRoot=perfect-heist-2.kvp
 Meta.Description=Perfect Heist 2 Dedicated Server
 Meta.DisplayImageSource=steam:1521580
