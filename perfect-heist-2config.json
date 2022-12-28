@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "servername",
-        "Category": "",
+        "Category": "GameSettings",
         "Description": "",
         "Keywords": "",
         "FieldName": "name",
@@ -14,7 +14,7 @@
     },
     {
         "DisplayName": "Bots",
-        "Category": "",
+        "Category": "GameSettings",
         "Description": "how many bots will play against a single player if no other human players are online",
         "Keywords": "",
         "FieldName": "bots",
@@ -27,7 +27,7 @@
     },
     {
         "DisplayName": "password",
-        "Category": "password settings",
+        "Category": "GameSettings",
         "Description": "",
         "Keywords": "",
         "FieldName": "pw",
@@ -43,7 +43,7 @@
     },
     {
         "DisplayName": "password text",
-        "Category": "password settings",
+        "Category": "GameSettings",
         "Description": "",
         "Keywords": "",
         "FieldName": "pws",
@@ -56,7 +56,7 @@
     },
     {
         "DisplayName": "Picktime",
-        "Category": "Advanced",
+        "Category": "GameSettings",
         "Description": "",
         "Keywords": "",
         "FieldName": "picktime",
@@ -69,7 +69,7 @@
     },
     {
         "DisplayName": "Mapname",
-        "Category": "",
+        "Category": "GameSettings",
         "Description": "NewYorkCity, HugeBank, Classic_Heist_Big, CasinoHeist, Bank4",
         "Keywords": "",
         "FieldName": "mapname",
