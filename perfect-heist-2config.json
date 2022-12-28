@@ -1,0 +1,70 @@
+[
+    {
+        "DisplayName": "servername",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "name",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "name",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "Nvnd Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Bots",
+        "Category": "",
+        "Description": "how many bots will play against a single player if no other human players are online",
+        "Keywords": "",
+        "FieldName": "bots",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "bots",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "2",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "password",
+        "Category": "password settings",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "pw",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "pw",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "password text",
+        "Category": "password settings",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "pws",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "pws",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "TOPSECRET",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Picktime",
+        "Category": "Advanced",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "picktime",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "picktime",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "20",
+        "EnumValues": {}
+    }
+]
