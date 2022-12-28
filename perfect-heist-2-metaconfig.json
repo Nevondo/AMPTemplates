@@ -2,7 +2,6 @@
   {
     "ConfigFile": "Saved/Config/LinuxServer/Game.ini",
     "AutoMap": true,
-    "ConfigType": "ini",
-    "ConfigFormatRegex":"^(?<key>.+?)=(?<value>.*?)$"
+    "ConfigType": "ini"
   }
 ]
