@@ -12,7 +12,6 @@ App.ExecutableWin=1964150\
 App.ExitMethod=OS_CLOSE
 App.HasReadableConsole=true
 App.HasWritableConsole=true
-App.RapidStartup=false
 App.RootDir=./perfect-heist-2/
 App.UpdateSource=Multi
 App.UpdateSources=[{"UpdateStageName": "SteamCMD Download","UpdateSourcePlatform": "All", "UpdateSource": "SteamCMD", "UpdateSourceData": "1964150"}]
