@@ -33,3 +33,4 @@ Meta.EndpointURIFormat=
 Meta.OS=2
 Meta.URL=https://store.steampowered.com/app/1521580/Perfect_Heist_2/
 Meta.MetaConfigManifest=perfect-heist-2-metaconfig.json
+Meta.ConfigManifest=perfect-heist-2-config.json
