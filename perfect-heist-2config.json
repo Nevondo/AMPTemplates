@@ -73,11 +73,17 @@
         "Description": "NewYorkCity, HugeBank, Classic_Heist_Big, CasinoHeist, Bank4",
         "Keywords": "",
         "FieldName": "mapname",
-        "InputType": "text",
+		"IncludeInCommandLine": true,
+		"InputType": "enum",
+		"EnumValues": {
+		  "NewYorkCity": "NewYork City",
+		  "HugeBank": "Big Bank",
+		  "Classic_Heist_Big": "Classic Heist",
+		  "CasinoHeist": "Casino Bank",
+          "Bank4": "Clepto Bank"
+		},
         "IsFlagArgument": false,
         "ParamFieldName": "mapname",
-        "IncludeInCommandLine": true,
-        "DefaultValue": "NewYorkCity",
-        "EnumValues": {}
+        "DefaultValue": "NewYorkCity"
     }
 ]
