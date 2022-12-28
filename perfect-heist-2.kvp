@@ -2,7 +2,7 @@ App.AdminMethod=STDIO
 App.ApplicationPort1=7777
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./perfect-heist-2/1964150/
-App.CommandLineArgs={{$mapname}} - Port={{$ApplicationPort1}} -QueryPort={{$ApplicationPort2}}
+App.CommandLineArgs=NewYorkCity - Port={{$ApplicationPort1}} -QueryPort=27017
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Perfect Heist 2
