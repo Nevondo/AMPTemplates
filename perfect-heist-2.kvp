@@ -2,12 +2,12 @@ App.AdminMethod=STDIO
 App.ApplicationPort1=7777
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./perfect-heist-2/1964150/
-App.CommandLineArgs=NewYorkCity - Port={{$ApplicationPort1}} -QueryPort=27017
+App.CommandLineArgs=PerfectHeist2 NewYorkCity - Port={{$ApplicationPort1}} -QueryPort=27017
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Perfect Heist 2
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "1964150"}
-App.ExecutableLinux=1964150/PerfectHeist2Server.sh
+App.ExecutableLinux=1964150/PerfectHeist2/Binaries/Linux/PerfectHeist2Server
 App.ExecutableWin=1964150\
 App.ExitMethod=OS_CLOSE
 App.HasReadableConsole=true
