@@ -19,7 +19,9 @@ Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
 Console.UserJoinRegex=^User (?<username>.+?) \((?<userid>-?d+)\) connected from \[::ffff:(?<endpoint>.+?)\]$
 Console.UserLeaveRegex=^User (?<username>.+?) \((?<userid>-?d+)\) disconnected\. Reason: (.+?)$
 App.UpdateSource=Multi
-App.UpdateSources=[{"UpdateStageName": "SteamCMD and Config Update Download","UpdateSourcePlatform": "All", "UpdateSource": "SteamCMD", "UpdateSourceData": "1964150", "ForceDownloadPlatform":"Linux"},{"UpdateStageName":"Config Directory Creation","UpdateSourcePlatform":"All","UpdateSource":"CreateDirectory","UpdateSourceArgs":"./perfect-heist-2/1964150/PerfectHeist2/Saved/Config/LinuxServer","OverwriteExistingFiles":false},{"UpdateStageName":"ServerSettings File Download","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://raw.githubusercontent.com/Nevondo/AMPTemplates/main/perfect_heist_2.ini","UpdateSourceTarget":"./PerfectHeist2/Saved/Config/LinuxServer/","UpdateSourceArgs":"Game.ini","OverwriteExistingFiles":false}]
+App.UpdateSources=[{"UpdateStageName": "SteamCMD and Config Update Download","UpdateSourcePlatform": "All", "UpdateSource": "SteamCMD", "UpdateSourceData": "1964150", "ForceDownloadPlatform":"Linux"},
+{"UpdateStageName":"Config Directory Creation","UpdateSourcePlatform":"All","UpdateSource":"CreateDirectory","UpdateSourceArgs":"./perfect-heist-2/1964150/PerfectHeist2/Saved/Config/LinuxServer","OverwriteExistingFiles":false},
+{"UpdateStageName":"ServerSettings File Download","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://raw.githubusercontent.com/Nevondo/AMPTemplates/main/perfect_heist_2.ini","UpdateSourceTarget":"./perfect-heist-2/1964150/PerfectHeist2/Saved/Config/LinuxServer/","UpdateSourceArgs":"Game.ini","OverwriteExistingFiles":false}]
 Meta.Author=twi
 Meta.ConfigRoot=perfect-heist-2.kvp
 Meta.Description=Perfect Heist 2 Dedicated Server
