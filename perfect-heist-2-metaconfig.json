@@ -2,6 +2,8 @@
   {
     "ConfigFile": "./PerfectHeist2/Saved/Config/LinuxServer/Game.ini",
     "AutoMap": true,
-    "ConfigType": "ini"
+    "ConfigType": "ini",
+    "ConfigFormat": "{0} = {1}",
+    "ConfigFormatRegex":"^(?<key>.+?) = (?<value>.*?)$"
   }
 ]
