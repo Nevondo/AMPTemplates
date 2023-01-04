@@ -19,7 +19,8 @@ Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
 Console.UserJoinRegex=^User (?<username>.+?) \((?<userid>-?d+)\) connected from \[::ffff:(?<endpoint>.+?)\]$
 Console.UserLeaveRegex=^User (?<username>.+?) \((?<userid>-?d+)\) disconnected\. Reason: (.+?)$
 App.UpdateSource=Multi
-App.UpdateSources=[{"UpdateStageName": "SteamCMD Download","UpdateSourcePlatform": "All", "UpdateSource": "SteamCMD", "UpdateSourceData": "1964150"}]
+App.UpdateSources=[{"UpdateStageName": "SteamCMD Download","UpdateSourcePlatform": "All", "UpdateSource": "SteamCMD", "UpdateSourceData": "1964150"}, 
+{"UpdateStageName":"Config Directory Creation","UpdateSourcePlatform":"All","UpdateSource":"CreateDirectory","UpdateSourceArgs":".PerfectHeist2/Saved/Config/LinuxServer","OverwriteExistingFiles":false},{"UpdateStageName":"ServerSettings File Download","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://raw.githubusercontent.com/Nevondo/AMPTemplates/main/perfect_heist_2.ini","UpdateSourceTarget":".PerfectHeist2/Saved/Config/LinuxServer/","UpdateSourceArgs":"Game.ini","OverwriteExistingFiles":false}]
 Meta.Author=twi
 Meta.ConfigRoot=perfect-heist-2.kvp
 Meta.Description=Perfect Heist 2 Dedicated Server
@@ -29,4 +30,4 @@ Meta.EndpointURIFormat=
 Meta.OS=Windows, Linux
 Meta.URL=https://store.steampowered.com/app/1521580/Perfect_Heist_2/
 Meta.MetaConfigManifest=perfect-heist-2-metaconfig.json
-Meta.ConfigManifest=perfect-heist-2.ini
+Meta.ConfigManifest=perfect-heist-2config.json
