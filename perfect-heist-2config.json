@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "servername",
-        "Category": "GameSettings",
+        "Category": "PH2 - Settings",
         "Description": "",
         "Keywords": "",
         "FieldName": "name",
@@ -14,7 +14,7 @@
     },
     {
         "DisplayName": "Bots",
-        "Category": "GameSettings",
+        "Category": "PH2 - Settings",
         "Description": "how many bots will play against a single player if no other human players are online",
         "Keywords": "",
         "FieldName": "bots",
@@ -27,7 +27,7 @@
     },
     {
         "DisplayName": "password",
-        "Category": "GameSettings",
+        "Category": "PH2 - Settings",
         "Description": "",
         "Keywords": "",
         "FieldName": "pw",
@@ -43,7 +43,7 @@
     },
     {
         "DisplayName": "password text",
-        "Category": "GameSettings",
+        "Category": "PH2 - Settings",
         "Description": "",
         "Keywords": "",
         "FieldName": "pws",
@@ -56,7 +56,7 @@
     },
     {
         "DisplayName": "Picktime",
-        "Category": "GameSettings",
+        "Category": "PH2 - Settings",
         "Description": "",
         "Keywords": "",
         "FieldName": "picktime",
@@ -69,7 +69,7 @@
     },
     {
         "DisplayName": "Mapname",
-        "Category": "GameSettings",
+        "Category": "PH2 - Settings",
         "Description": "NewYorkCity, HugeBank, Classic_Heist_Big, CasinoHeist, Bank4",
         "Keywords": "",
         "FieldName": "mapname",
