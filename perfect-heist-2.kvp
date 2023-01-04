@@ -6,7 +6,7 @@ App.CommandLineArgs=PerfectHeist2 NewYorkCity - Port={{$ApplicationPort1}} -Quer
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Perfect Heist 2
-App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullRootDir}}1964150/linux64:%LD_LIBRARY_PATH%","SteamAppId":"1964150","STEAM_COMPAT_DATA_PATH":"{{$FullRootDir}}1964150","STEAM_COMPAT_CLIENT_INSTALL_PATH":"{{$FullRootDir}}1964150"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullRootDir}}1964150/linux64:%LD_LIBRARY_PATH%","SteamAppId":"1964150","STEAM_COMPAT_DATA_PATH":"{{$FullRootDir}}1964150","STEAM_COMPAT_CLIENT_INSTALL_PATH":"{{$FullRootDir}}1964150","HOME":"{{$FullRootDir}}1964150"}
 App.ExecutableLinux=1964150/PerfectHeist2Server.sh
 App.ExitMethod=OS_CLOSE
 App.HasReadableConsole=true
